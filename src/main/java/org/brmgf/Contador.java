@@ -21,6 +21,8 @@ public class Contador {
         } catch (ParametrosInvalidosException exception) {
             System.out.println(exception.getMessage());
         }
+
+        scanner.close();
     }
 
     private static int getParametroInteiro(Scanner scanner) {
